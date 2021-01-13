@@ -159,7 +159,7 @@ code {
 }
 
 #wave {
-  color: peachpuff;
+  color: rgb(92, 90, 89);
   padding-top: calc((100% - 1127px) / 2);
   height: 7em;
   box-sizing: content-box;
@@ -756,6 +756,12 @@ li.details > input {
 
 /* Highlighted list item */
 li.highlighted {
+  padding: 0.5em;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+}
+
+ul.highlighted {
   padding: 0.5em;
   background: rgba(0, 0, 0, 0.04);
   border-radius: 4px;
